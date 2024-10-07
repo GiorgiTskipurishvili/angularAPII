@@ -1,0 +1,21 @@
+.employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px; 
+  }
+  
+  .user-photo {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+  }
+  

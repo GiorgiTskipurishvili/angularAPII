@@ -1,0 +1,61 @@
+/* 
+.welcome-header{
+    text-align: center;
+    background-color: #4CAF50;
+    color: rgb(8, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.welcome-header h1 {
+    font-size: 24px; 
+    margin: 0;
+}
+span{
+    color: white;
+}
+ */
+ .welcome-header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items */
+    align-items: center; /* Center items vertically */
+    text-align: center;
+    background-color: #4CAF50;
+    color: rgb(8, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-header h1 {
+    font-size: 24px; 
+    margin: 0;
+    flex-grow: 1; /* Allow h1 to take remaining space */
+}
+
+span {
+    color: white;
+}
+
+.ul-left, .ul-right {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.ul-left li, .ul-right li {
+    display: inline; /* Display items inline */
+    margin: 0 10px; /* Add some space between links */
+}
+
+.ul-left a, .ul-right a {
+    color: white; /* Make link text white */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.ul-left a:hover, .ul-right a:hover {
+    color: #FFD700; /* Change link color on hover */
+}

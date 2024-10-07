@@ -1,0 +1,14 @@
+ <app-header></app-header>
+
+<!-- <div>
+    <app-card [data]="card1"></app-card>
+    <app-card [data]="card2"></app-card>
+    <app-card [data]="card3"></app-card>
+</div>
+<button (click)="logout()">Logout</button> -->
+
+
+<div>
+  <app-card *ngFor="let product of products" [data]="product"></app-card>
+</div>
+<button (click)="logout()">Logout</button>

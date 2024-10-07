@@ -1,0 +1,34 @@
+.save-employee-form{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+
+.save-employee-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .save-employee-form input {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-employee-form button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-employee-form button:hover {
+    background-color: #45a049;
+  }

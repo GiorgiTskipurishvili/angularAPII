@@ -1,0 +1,101 @@
+/* General section styling */
+.register-section {
+    background-color: #f7f9fc;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container to hold the form */
+  .register-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Heading styling */
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styling */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f8f8;
+  }
+  
+  /* Focus state for input fields */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Required field asterisk */
+  .required {
+    color: red;
+    margin-left: 3px;
+  }
+  
+  /* Button styling */
+  button.primary {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .register-container {
+      padding: 20px;
+    }
+  
+    .section-heading {
+      font-size: 20px;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      padding: 8px;
+    }
+  
+    button.primary {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
